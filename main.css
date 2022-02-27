@@ -11325,5 +11325,11 @@ textarea.form-control-lg {
 }
 
 .checkbox-wrapper{
-  background-color: #000;
+  text-align:  left;
+}
+.wrapper{
+  text-align: right;
+}
+.quantity col-6 no-gutter{
+  text-align: left;
 }
