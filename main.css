@@ -4542,7 +4542,7 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  flex: 1 1 auto;
+  flex: 1 10 auto;
   padding: 1rem 1rem;
 }
 
@@ -7420,15 +7420,15 @@ textarea.form-control-lg {
 }
 
 .p-2 {
-  padding: 0.5rem !important;
+  padding: 3.0rem !important;
 }
 
 .p-3 {
-  padding: 1rem !important;
+  padding: 1.5rem !important;
 }
 
 .p-4 {
-  padding: 1.5rem !important;
+  padding: 1.0rem !important;
 }
 
 .p-5 {
@@ -11319,17 +11319,33 @@ textarea.form-control-lg {
   padding-left: 16px;
 }
 
-.user-details{
+.user-details, ng-untouched ng-pristine ng-valid{
   background-color: whitesmoke;
   text-align: left;
+  text-decoration:solid;
+
+}
+.item1 { grid-area: header; }
+/*.item2 { grid-area: menu; }*/
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 
-.checkbox-wrapper{
-  text-align:  left;
-}
-.wrapper{
-  text-align: right;
-}
-.quantity col-6 no-gutter{
+
+
+.checkbox-wrapper,checkbox  {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
+  padding: 10px 0;
+  font-size: 20px;
 }
