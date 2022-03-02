@@ -11287,7 +11287,7 @@ textarea.form-control-lg {
   }
 }
 
-.productDetail .product-detail-options .content {
+/*.productDetail .product-detail-options .content {
   border: 1px solid #6ba3da;
   border-top-color: rgb(107, 163, 218);
   border-top-style: solid;
@@ -11395,6 +11395,31 @@ button {
   text-shadow: none;
   text-align: center;
   cursor: default;
+}*/
+
+.choice{
+text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: left;
+  cursor: default;
 }
 
+.user{
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height:inherit;
+  text-transform: none;
+  text-indent: 70px;
+  text-shadow: none;
+  text-align: center;
+  cursor: default;
+}
 
