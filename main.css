@@ -11287,139 +11287,14 @@ textarea.form-control-lg {
   }
 }
 
-/*.productDetail .product-detail-options .content {
-  border: 1px solid #6ba3da;
-  border-top-color: rgb(107, 163, 218);
-  border-top-style: solid;
-  border-top-width: 0px;
-  border-right-color: rgb(107, 163, 218);
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgb(107, 163, 218);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: rgb(107, 163, 218);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
-  border-top: 0 solid #6ba3da;
-  border-top-width: 0px;
-  border-top-style: solid;
-  border-top-color: rgb(107, 163, 218);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  padding: 24px 16px;
-  padding-top: 24px;
-  padding-right: 16px;
-  padding-bottom: 24px;
-  padding-left: 16px;
+/*Background color change names */
+.choice , .user{
+    padding: 8px 12px;
+    color: whitesmoke;
+    background-color:#06357a;
+    border: 1px solid whitesmoke;
+    border-radius: 5px; 
 }
 
-.user-details, ng-untouched ng-pristine ng-valid{
-  background-color: whitesmoke;
-  text-align: left;
-  text-decoration:solid;
 
-}
-
-.checkbox-wrapper  {
-  background-color: whitesmoke;
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: left;
-  padding: 10px 0;
-  font-size: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-.stepper-container[_ngcontent-ghm-c122] .stepper[_ngcontent-ghm-c122] {
-  cursor: pointer;
-  display: flex;
-  color: #001d9b;
-  justify-content: center;
-  align-items: center;
-  line-height: normal;
-  font-size: 14px;
-}
-
-.btn, button {
-  display: inline-block;
-  font-family: GTWalsheimMedium,Arial,sans-serif;
-  font-size: 18px;
-  color: #f77b2f;
-  background-color: initial;
-  border: 1px solid #f77b2f;
-  border-radius: 30px;
-  padding: 0 32px;
-  height: 50px;
-  line-height: 48px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  outline-color: inherit;
-  transition: all .3s ease;
-  transition-property: color,border-color,background-color;
-}
-button, select {
-  text-transform: none;
-}
-
-button, input, optgroup, select, textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-button {
-  
-  text-rendering: auto;
-  color: -internal-light-dark(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  text-align: center;
-  cursor: default;
-}*/
-
-.choice{
-text-rendering: auto;
-  color: -internal-light-dark(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  text-align: left;
-  cursor: default;
-}
-
-.user{
-  text-rendering: auto;
-  color: -internal-light-dark(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height:inherit;
-  text-transform: none;
-  text-indent: 70px;
-  text-shadow: none;
-  text-align: center;
-  cursor: default;
-}
 
