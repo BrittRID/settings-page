@@ -6,12 +6,12 @@ body {
 }
 .container {
     background: #fff;
-    width: 850px;
-    height: 850px;
+    width: 1000px;
+    height: 1000px;
     margin: 0 auto;
     position: relative;
     margin-top: 10%;
-    box-shadow: 2px 5px 20px rgba(119,119,119,.5);
+    box-shadow: 2px 5px 20px rgba(44, 40, 40, 0.5);
 }
 .leftbox {
     float: left;
@@ -33,7 +33,7 @@ nav a {
     transition: all .3s ease-in-out;
 }
 nav a:hover {
-    color: #10ac84;
+    color: #474b4a;
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -41,7 +41,7 @@ nav a:first-child {
     margin-top: 7px;
 }
 nav a.active {
-    color: #10ac84;
+    color: #4e504f;
 }
 
 
@@ -59,7 +59,7 @@ nav a.active {
 }
 h1 {
     font-family: "Montserrat", sans-serif;
-    color: #7ed386;
+    color: #353835;
     font-size: 1.2rem;
     margin-top: 40px;
     margin-bottom: 35px;
@@ -75,7 +75,7 @@ h2 {
 }
 .input, p {
     border: 0;
-    border-bottom: 1px solid #3fb6a8;
+    border-bottom: 1px solid #484e4e;
     width: 80%;
     font-family: 'montserrat', sans-serif;
     font-size: .7em;

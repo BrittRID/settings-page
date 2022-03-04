@@ -2707,7 +2707,7 @@ textarea.form-control-lg {
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-control:-webkit-autofill {
-  padding-top: 1.625rem;
+  padding-top: 2.625rem;
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-select {
@@ -4618,12 +4618,12 @@ textarea.form-control-lg {
 
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(0.25rem - 5px);
+  border-bottom-left-radius: calc(0.25rem - 5px);
 }
 
 .card-group > .card {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.00rem;
 }
 @media (min-width: 576px) {
   .card-group {
@@ -4660,7 +4660,7 @@ textarea.form-control-lg {
   }
   .card-group > .card:not(:first-child) .card-img-bottom,
 .card-group > .card:not(:first-child) .card-footer {
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 3;
   }
 }
 
@@ -7456,7 +7456,7 @@ textarea.form-control-lg {
 }
 
 .px-4 {
-  padding-right: 1.5rem !important;
+  padding-right: 5rem !important;
   padding-left: 1.5rem !important;
 }
 
@@ -7491,8 +7491,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .pt-0 {
