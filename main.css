@@ -11296,5 +11296,13 @@ textarea.form-control-lg {
     border-radius: 5px; 
 }
 
+.boxes{
+  padding: 8px 12px;
+    color: whitesmoke;
+    background-color:#06357a;
+    border: 1px solid whitesmoke;
+    border-radius: 5px; 
+}
+
 
 
