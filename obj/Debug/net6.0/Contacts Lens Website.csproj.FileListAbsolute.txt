@@ -1,0 +1,15 @@
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\bin\Debug\net6.0\Contacts Lens Website.exe
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\bin\Debug\net6.0\Contacts Lens Website.deps.json
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\bin\Debug\net6.0\Contacts Lens Website.runtimeconfig.json
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\bin\Debug\net6.0\Contacts Lens Website.dll
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\bin\Debug\net6.0\ref\Contacts Lens Website.dll
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\bin\Debug\net6.0\Contacts Lens Website.pdb
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.csproj.AssemblyReference.cache
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.AssemblyInfoInputs.cache
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.AssemblyInfo.cs
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.csproj.CoreCompileInputs.cache
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.dll
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\ref\Contacts Lens Website.dll
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.pdb
+C:\Users\britt\Desktop\Repos\Contacts Lens Website\obj\Debug\net6.0\Contacts Lens Website.genruntimeconfig.cache
