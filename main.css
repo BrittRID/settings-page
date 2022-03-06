@@ -11303,6 +11303,27 @@ textarea.form-control-lg {
     border: 1px solid whitesmoke;
     border-radius: 5px; 
 }
+.weight{
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.75rem !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-stretch: narrower;
+}
 
+.weight{
+  padding: 0 20px;
+}
+/*.weight{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}*/
 
+/* Responsive styling*/
+@media (max-width: 1199px){ 
+  .weight {
+    font-size: 56px;
+    margin-bottom: 30px;
+  }
+ }
 
