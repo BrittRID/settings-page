@@ -11290,17 +11290,18 @@ textarea.form-control-lg {
 /*Background color change names */
 .choice , .user{
     padding: 8px 12px;
-    color: whitesmoke;
-    background-color:#06357a;
+    color: black;
+    background-color:whitesmoke;
     border: 1px solid whitesmoke;
     border-radius: 5px; 
+    
+    
 }
 
 .boxes{
   padding: 8px 12px;
     color: whitesmoke;
-    background-color:#06357a;
-    border: 1px solid whitesmoke;
+    background-color: white;
     border-radius: 5px; 
 }
 .weight{
@@ -11326,4 +11327,29 @@ textarea.form-control-lg {
     margin-bottom: 30px;
   }
  }
+/* .choice {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}*/
+.block {
+  background: green;
+  width: 50%;
+  height: 300px;
+  float: left;
+  display: block;
+  color: white;
+}
+button {
+  clear: both;
+  float: left;
+  margin-top: 30px;
+}
 
