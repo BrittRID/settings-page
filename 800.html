@@ -74,13 +74,7 @@
                                         <div class="choice">
                                             Sphere
                                         <select name="choice">
-                    
-
-
-
-
                                             <option value="first"><span>+2.50</span></option>
-                                           
                                             <option value="second" selected>+2.25</option>
                                             <option value="third">+2.00</option>
                                             <option value="first">+1.75</option>
@@ -350,10 +344,9 @@
                                     Now $50.00 for 6 month supply
                                 </div>
                                 <div class="weight"><h3>Right Eye (OD)</h3></div>
-                                <div class="Bran">
-                                    <div class="jet">Sphere</div>
+                                <div class="choice">
+                                    Sphere
                                 <select name="choice">
-                                    
                                     <option value="first">+2.50</option>
                                     <option value="second" selected>+2.25</option>
                                     <option value="third">+2.00</option>
@@ -2106,6 +2099,8 @@
                                                     <option value="three"> 3-90px</option>   
                                                 </select>
                                             </div> 
+
+                                            
                                             <div class="weight"><h3>Left Eye(OS)</h3></div>
                                         <div class="choice">
                                             Sphere
@@ -2229,19 +2224,69 @@
                                                 <option value="three"> 3-90px</option>   
                                             </select>
                                         </div>
-
-                                    
-
-
-
-
-
-
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
+
+
+                            <!--Might have to edit code-->
+                            <table>
+                                <tr>
+                                    <td>
+                                        <form autocomplete="off" onsubmit="onFormSubmit()">
+                                            <div>
+                                                <label for="productCode" >Product Code</label>
+                                               
+                                                <input type="text" name="productCode" id="productCode">
+                                            </div>
+                                            <div>
+                                                <label for="product">Product Name</label>
+                                                <input type="text" name="product" id="product">
+                                            </div>
+                                            <div>
+                                                <label for="qty">Qty</label>
+                                                <input type="number" name="qty" id="qty">
+                                            </div>
+                                            <div>
+                                                <label for="perPrice">Price</label>
+                                                <input type="number" name="perPrice" id="perPrice">
+                                            </div>
+                        
+                                            <div class="form_action--button">
+                                                <input type="submit" value="Submit">
+                                                <input type="reset" value="Reset">
+                                            </div>
+                                        </form>
+                        
+                                        <td>
+                                            <table class="list" id="storeList">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Product Code</th>
+                                                        <th>Product Name</th>
+                                                        <th>Qty</th>
+                                                        <th>Price</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                        
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+
+
+
+
+
+
+
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="thankU.html">Add to cart</a></div>
@@ -2259,6 +2304,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <script src="main.js"></script>
+       <!--- <script src="main.js"></script>--> 
+       <script type="text/javascript" src="./script.js"></script>
     </body>
 </html>

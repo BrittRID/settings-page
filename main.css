@@ -11291,18 +11291,29 @@ textarea.form-control-lg {
 .choice , .user{
     padding: 8px 12px;
     color: black;
-    background-color:whitesmoke;
+    background-color:white;
     border: 1px solid whitesmoke;
     border-radius: 5px; 
+    box-sizing: inherit;
     
     
 }
 
+.weight{
+  padding: 8px 12px;
+  color: black;
+  background-color:white;
+  border: 1px solid whitesmoke;
+  border-radius: 5px; 
+  box-sizing: inherit;
+}
+
 .boxes{
   padding: 8px 12px;
-    color: whitesmoke;
+    color: black;
     background-color: white;
     border-radius: 5px; 
+    box-sizing: inherit;
 }
 .weight{
   font-weight: 300;
