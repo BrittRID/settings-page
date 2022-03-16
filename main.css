@@ -11288,14 +11288,18 @@ textarea.form-control-lg {
 }
 
 /*Background color change names */
-.choice , .user{
-    padding: 8px 12px;
-    color: black;
-    background-color:white;
-    border: 1px solid whitesmoke;
-    border-radius: 5px; 
-    box-sizing: inherit;
-    
+.choice , .user, .boxes{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 9px;
+  margin-bottom: 16px;
+  text-align: calc(left)!important;
+  white-space: nowrap!important;
+  color: darkblue;
+  margin-left: 7px;
+  cursor: pointer!important;
+  box-sizing: inherit;
+  
     
 }
 
@@ -11308,13 +11312,13 @@ textarea.form-control-lg {
   box-sizing: inherit;
 }
 
-.boxes{
+/*.boxes{
   padding: 8px 12px;
     color: black;
     background-color: white;
     border-radius: 5px; 
     box-sizing: inherit;
-}
+}*/
 .weight{
   font-weight: 300;
   text-align: left;

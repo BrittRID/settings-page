@@ -1,59 +1,34 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-
-.body {
-    margin: 0;
-    padding: 0;
-    background: url(Image/1000_F_273227473_N0WRQuX3uZCJJxlHKYZF44uaJAkh2xLG.jpg); 
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
-    width: 30px;
-    height: 420px ;
+.flaw{
+    width: 100%;
+    height: auto;  
+    image-orientation: inherit;
 }
-
-.col mb-5{
-    background-color: black;
-}
-
-/*.choice , .user{
-    padding: 8px 12px;
-    color: black;
-    background-color:white;
-    border: 1px solid whitesmoke;
-    border-radius: 5px; 
-    box-sizing: inherit; 
-}*/
 .choice{
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    padding: 10px;
+    padding: 9px;
     margin-bottom: 16px;
-    text-align: center!important;
+    text-align: calc(center)!important;
     white-space: nowrap!important;
     color: #2e6baf;
     margin-left: 7px;
     cursor: pointer!important;
     box-sizing: inherit;
 }
-
 .cho{
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     color: #2e6baf;
-    text-align: center!important;
+    text-align: calc(center)!important;
     white-space: nowrap!important;
     box-sizing: inherit;
     display: block;
-}
-.weight{
+    cursor: pointer!important;
+} 
+/*.weight{
   padding: 8px 12px;
   color: rgb(34, 117, 185);
   background-color:white;
@@ -99,11 +74,11 @@
   .d-flex button{
     margin: 1.4em .1em;
     padding: 0.1em 0.2em;
-  }
+  }*/
   
 
   /*information about table */
-  body {
+  /*body {
     box-sizing: border-box;
 }
 
@@ -128,10 +103,10 @@ table .btnedit {
 table .btndelete {
     color: tomato;
     cursor: pointer;
-}
+}*/
 
 /* messages */
-.updatemsg,
+/*.updatemsg,
 .deletemsg,
 .insertmsg {
     position: absolute;
@@ -151,3 +126,4 @@ table .btndelete {
         top: -40px;
     }
 }
+*/

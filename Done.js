@@ -1,54 +1,83 @@
-function setFormMessage(formElement, type, message) {
-    const messageElement = formElement.querySelector(".form__message");
-
-    messageElement.textContent = message;
-    messageElement.classList.remove("form__message--success", "form__message--error");
-    messageElement.classList.add(`form__message--${type}`);
-}
-
-function setInputError(inputElement, message) {
-    inputElement.classList.add("form__input--error");
-    inputElement.parentElement.querySelector(".form__input-error-message").textContent = message;
-}
-
-function clearInputError(inputElement) {
-    inputElement.classList.remove("form__input--error");
-    inputElement.parentElement.querySelector(".form__input-error-message").textContent = "";
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    const loginForm = document.querySelector("#login");
-    const createAccountForm = document.querySelector("#createAccount");
-
-    document.querySelector("#linkCreateAccount").addEventListener("click", e => {
-        e.preventDefault();
-        loginForm.classList.add("form--hidden");
-        createAccountForm.classList.remove("form--hidden");
-    });
-
-    document.querySelector("#linkLogin").addEventListener("click", e => {
-        e.preventDefault();
-        loginForm.classList.remove("form--hidden");
-        createAccountForm.classList.add("form--hidden");
-    });
-
-    loginForm.addEventListener("submit", e => {
-        e.preventDefault();
-
-        // Perform your AJAX/Fetch login
-
-        setFormMessage(loginForm, "error", "Invalid username/password combination");
-    });
-
-    document.querySelectorAll(".form__input").forEach(inputElement => {
-        inputElement.addEventListener("blur", e => {
-            if (e.target.id === "signupUsername" && e.target.value.length > 0 && e.target.value.length < 10) {
-                setInputError(inputElement, "Username must be at least 10 characters in length");
-            }
+const productsdb = (dbname, table) => {
+    const db = new Dexie(dbname);
+    db.version(1).stores(table);
+    db.open();
+  
+    return db;
+    /**
+         * const db = new Dexie('myDb');
+            db.version(1).stores({
+            friends: `name, age`
         });
-
-        inputElement.addEventListener("input", e => {
-            clearInputError(inputElement);
+         */
+  };
+  
+  const bulkcreate = (dbtable, data) => {
+    let flag = empty(data);
+    if (flag) {
+      dbtable.bulkAdd([data]);
+      console.log("data inserted successfully...!");
+    } else {
+      console.log("Please provide data...!");
+    }
+    return flag;
+  };
+  
+  // create dynamic elements
+  const createEle = (tagname, appendTo, fn) => {
+    const element = document.createElement(tagname);
+    if (appendTo) appendTo.appendChild(element);
+    if (fn) fn(element);
+  };
+  
+  // check textbox validation
+  const empty = object => {
+    let flag = false;
+    for (const value in object) {
+      if (object[value] != "" && object.hasOwnProperty(value)) {
+        flag = true;
+      } else {
+        flag = false;
+      }
+    }
+    return flag;
+  };
+  
+  // getData from the database
+  const getData = (dbname, fn) => {
+    let index = 0;
+    let obj = {};
+    dbname.count(count => {
+      // count rows in the table using count method
+      if (count) {
+        dbname.each(table => {
+          // table => return the table object data
+          // to arrange order we are going to create for in loop
+          obj = SortObj(table);
+          fn(obj, index++); // call function with data argument
         });
+      } else {
+        fn(0);
+      }
     });
-});
+  };
+  
+  const SortObj = (sortobj) => {
+    let obj = {};
+    obj = {
+      id: sortobj.id,
+      name: sortobj.name,
+      seller: sortobj.seller,
+      price: sortobj.price
+    };
+    return obj;
+  }
+  
+  
+  export default productsdb;
+  export {
+    bulkcreate,
+    createEle,
+    getData,
+    SortObj
+  };
