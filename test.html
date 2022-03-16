@@ -141,7 +141,7 @@
                 var newCell = tr.insertCell(-1);
                 if (j >= 1) {
 
-                    if (j == 0) {   // WE'LL ADD A DROPDOWN LIST AT THE SECOND COLUMN (FOR Category).
+                    if (j == 1) {   // WE'LL ADD A DROPDOWN LIST AT THE SECOND COLUMN (FOR Category).
 // Allow user to enter rx
                         var select = document.createElement('select');      // CREATE AND ADD A DROPDOWN LIST.
                         select.innerHTML = '<option value=""></option>';
@@ -151,6 +151,7 @@
                         }
                         newCell.appendChild(select);
                     }
+                    
                     
                     else {
                         var tBox = document.createElement('input');          // CREATE AND ADD A TEXTBOX.

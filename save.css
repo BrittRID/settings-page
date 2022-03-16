@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.body {
+    margin: 0;
+    padding: 0;
+    background: url(Image/1000_F_273227473_N0WRQuX3uZCJJxlHKYZF44uaJAkh2xLG.jpg); 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    width: 30px;
+    height: 420px ;
+}
+
+.col mb-5{
+    background-color: black;
+}
+
+/*.choice , .user{
+    padding: 8px 12px;
+    color: black;
+    background-color:white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px; 
+    box-sizing: inherit; 
+}*/
+.choice{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 16px;
+    text-align: center!important;
+    white-space: nowrap!important;
+    color: #2e6baf;
+    margin-left: 7px;
+    cursor: pointer!important;
+    box-sizing: inherit;
+}
+
+.cho{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 16px;
+    color: #2e6baf;
+    text-align: center!important;
+    white-space: nowrap!important;
+    box-sizing: inherit;
+    display: block;
+}
+.weight{
+  padding: 8px 12px;
+  color: rgb(34, 117, 185);
+  background-color:white;
+  border: 1px solid whitesmoke;
+  border-radius: 5px; 
+  box-sizing: inherit;
+}
+.boxes{
+  padding: 8px 12px;
+    color: black;
+    background-color: white;
+    border-radius: 5px; 
+    box-sizing: inherit;
+}
+.weight{
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.75rem !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-stretch: narrower;
+}
+
+.weight{
+  padding: 0 20px;
+}
+.block {
+    background: green;
+    width: 50%;
+    height: 300px;
+    float: left;
+    display: block;
+    color: white;
+  }
+  button {
+    clear: both;
+    float: left;
+    margin-top: 30px;
+  }
+  .btn-btn-success,.btn-btn-primary,.btn-btn-warning,.btn-btn-danger{
+    color: white;
+    background-color: orangered
+  }
+  .d-flex button{
+    margin: 1.4em .1em;
+    padding: 0.1em 0.2em;
+  }
+  
+
+  /*information about table */
+  body {
+    box-sizing: border-box;
+}
+
+.d-flex input {
+    margin: .9em 0em;
+}
+
+.d-flex button {
+    margin: 1.5em .6em;
+    padding: .3em 2.4em;
+}
+
+.d-flex table {
+    margin: 1em 10em;
+}
+
+table .btnedit {
+    color: lightgreen;
+    cursor: pointer;
+}
+
+table .btndelete {
+    color: tomato;
+    cursor: pointer;
+}
+
+/* messages */
+.updatemsg,
+.deletemsg,
+.insertmsg {
+    position: absolute;
+    top: -40px;
+}
+
+.movedown {
+    animation: slideup 3.4s ease;
+}
+
+@keyframes slideup {
+    50% {
+        top: 0
+    }
+
+    100% {
+        top: -40px;
+    }
+}

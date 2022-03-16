@@ -7424,11 +7424,11 @@ textarea.form-control-lg {
 }
 
 .p-3 {
-  padding: 1.5rem !important;
+  padding: 2.5rem !important;
 }
 
 .p-4 {
-  padding: 1.0rem !important;
+  padding: 2.0rem !important;
 }
 
 .p-5 {
@@ -7456,8 +7456,8 @@ textarea.form-control-lg {
 }
 
 .px-4 {
-  padding-right: 5rem !important;
-  padding-left: 1.5rem !important;
+  padding-right: 8rem !important;
+  padding-left: 2.5rem !important;
 }
 
 .px-5 {
@@ -11363,4 +11363,11 @@ button {
   float: left;
   margin-top: 30px;
 }
-
+.btn-btn-success,.btn-btn-primary,.btn-btn-warning,.btn-btn-danger{
+  color: white;
+  background-color: orangered
+}
+.d-flex button{
+  margin: 1.4em .1em;
+  padding: 0.1em 0.2em;
+}
